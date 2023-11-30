@@ -1,0 +1,98 @@
+:root{
+    --primary-Orange:hsl(25, 97%, 53%);
+    --neutral-white:hsl(0, 0%, 100%);
+    --neutral-lightGray:hsl(217, 12%, 63%);
+    --neutral-mediumGrey:hsl(216, 12%, 54%);
+    --neutral-darkBlue:hsl(213, 19%, 18%);
+    --neutral-VeryDarkBlue:hsl(216, 12%, 8%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--neutral-VeryDarkBlue);
+}
+.card{
+    background-image: linear-gradient(15deg,#181E26,#1E252F);
+    transform: translateX(50%);
+    max-width: 750px;
+    min-width: 355px;
+    border: none!important;
+    padding: 1rem;
+}
+.card-second{
+    padding-right: 1.7rem!important;
+    padding-left: 1.7rem!important;
+}
+.card-second .card-body{
+    padding: 0!important;
+}
+.card:last-child p{
+    font-size: 14px;
+}
+h1{
+    color: var(--neutral-white)!important;
+    font-size: 1.5rem;
+}
+p{
+    color:var(--neutral-lightGray);
+    font-size: 15px;
+}
+.buttons button{
+    background-color: var(--neutral-darkBlue);
+    color: var(--neutral-lightGray)!important;
+    border-radius: 50%!important;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.buttons button:hover{
+    background-color: var(--primary-Orange);
+    color: var(--neutral-white)!important;
+}
+a.btn{
+    background-color: var(--primary-Orange);
+    color: var(--neutral-white);
+    letter-spacing: 2px;
+    font-family: inherit;
+    border: none;
+    padding: 0.5rem 0!important;
+}
+a.btn:hover,
+a.btn:active{
+    background-color: var(--neutral-white);
+    color: var(--primary-Orange);
+}
+.star{
+    background-color: var(--neutral-darkBlue);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:2rem;
+}
+button.active{
+    background-color: var(--neutral-lightGray);
+    color: var(--neutral-white)!important;
+}
+.rating p{
+    background-color: var(--neutral-darkBlue);
+    border-radius: 15px;
+    color: var(--primary-Orange);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.3rem 0.5rem;
+}
+p.card-text{
+    font-size: 15px;
+}
