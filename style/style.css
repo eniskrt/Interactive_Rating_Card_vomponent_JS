@@ -19,7 +19,7 @@ body{
 }
 .card{
     background-image: linear-gradient(15deg,#181E26,#1E252F);
-    transform: translateX(50%);
+    transform: translateX(25%);
     max-width: 750px;
     min-width: 355px;
     border: none!important;
